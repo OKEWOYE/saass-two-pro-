@@ -7,7 +7,7 @@ pipeline {
         PRIVATE_KEY_PATH = 'C:/Users/Success/Downloads/electricaa-key.pem'
         IMAGE_NAME = 'hub_electricaa'
         IMAGE_TAG = "build-${env.BUILD_NUMBER}"
-        GIT_REPO = 'https://github.com/Success-C-Opara/electric-001.git'
+        GIT_REPO = 'https://github.com/OKEWOYE/saass-two-pro-.git'
         BRANCH_NAME = 'main'
         GIT_BASH = '"C:\\Program Files\\Git\\bin\\bash.exe" -c'
         DOCKERHUB_CREDENTIALS_ID = 'dockerhub-creds'
