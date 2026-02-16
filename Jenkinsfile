@@ -5,7 +5,7 @@ pipeline {
         EC2_USER = 'ec2-user'
         EC2_HOST = '56.228.36.161'
         PRIVATE_KEY_PATH = 'C:/Users/MIDE/Desktop/.ssh/Downloads/jen-saaskey.pem'
-        IMAGE_NAME = 'lizzyy/mide-saas-jen'
+        IMAGE_NAME = 'mide-saas-jen'
         IMAGE_TAG = "build-${env.BUILD_NUMBER}"
         GIT_REPO = 'https://github.com/OKEWOYE/saass-two-pro-.git'
         BRANCH_NAME = 'main'
